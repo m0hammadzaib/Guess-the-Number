@@ -1,0 +1,112 @@
+ body {
+     font-family: 'poppins';
+     background: linear-gradient(90deg, #ff4e50, #f9d423);
+     background-blend-mode: overlay;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+     height: 100vh;
+     margin: 0;
+ }
+
+ .main-container {
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.15);
+     backdrop-filter: blur(10px);
+     max-width: 400px;
+     width: 100%;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+     padding: 25px;
+     border-radius: 15px;
+ }
+
+ h1 {
+     font-weight: 500px;
+     margin-bottom: 10px;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+ }
+
+ .subtitle {
+     font-size: 1rem;
+     margin-bottom: 10px;
+
+ }
+
+ .input-row {
+     margin-bottom: 1rem;
+     display: flex;
+     gap: 1rem;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ #guessInput {
+     border: 2px;
+     width: 60%;
+     font-size: 1rem;
+     border-radius: 0.6rem;
+     text-align: center;
+ }
+
+ button {
+     padding: 0.8rem 1.6rem;
+     font-size: 1.4rem;
+     border: none;
+     border-radius: 0.6rem;
+     background: #ff5722;
+     color: #fff;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+
+ button:hover {
+     background: #e64a19;
+     transform: scale(1.02);
+ }
+
+ #reset {
+     padding: 1rem 2rem;
+     font-size: 1rem;
+     border: none;
+     border-radius: 2rem;
+     background: rgb(81, 81, 81);
+     color: #fff;
+     cursor: pointer;
+     margin-top: 1rem;
+     transition: all 0.3s ease;
+ }
+
+ #reset:hover {
+     background: rgb(106, 106, 106);
+     transform: scale(1.0);
+ }
+
+ .scoreboard {
+     display: flex;
+     justify-content: space-between;
+     margin: 1rem 0;
+     font-weight: 600;
+ }
+
+ .history h3 {
+     font-size: 1rem;
+     margin: auto;
+ }
+
+ .history {
+     margin-top: 1rem;
+     text-align: left;
+
+ }
+
+ .history ul {
+     margin: 1rem;
+     list-style: circle;
+ }
+
+ .credits {
+     font-size: 0.8rem;
+     margin-top: 2rem;
+     opacity: 0.75;
+ }
