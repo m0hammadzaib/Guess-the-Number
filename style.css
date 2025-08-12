@@ -10,6 +10,7 @@
      margin: 0;
  }
 
+
  .main-container {
      text-align: center;
      background-color: rgba(255, 255, 255, 0.15);
@@ -19,10 +20,14 @@
      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
      padding: 25px;
      border-radius: 15px;
+     min-height: 500px;
+ }
+ .play-area{
+    padding: 8px;
  }
 
  h1 {
-     font-weight: 500px;
+     font-weight: 900;
      margin-bottom: 10px;
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
  }
@@ -102,11 +107,30 @@
 
  .history ul {
      margin: 1rem;
-     list-style: circle;
+     max-height: 100px;
+     overflow-y: auto;
+     scrollbar-width: none;
+     scrollbar-color: #ff9800 transparent;
+ }
+
+ .history li {
+     background: rgba(255, 255, 255, 0.1);
+     padding: 0.6rem;
+     border-radius: 0.4rem;
+     margin-bottom: 0.4rem;
+     height: 1rem;
+     list-style: none;
+     text-align: center;
  }
 
  .credits {
-     font-size: 0.8rem;
-     margin-top: 2rem;
-     opacity: 0.75;
+   position: fixed;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  text-align: center;
+ }
+ .hidden{
+    display:none;
  }
