@@ -4,7 +4,7 @@ A simple, interactive web-based number guessing game built with HTML, CSS, and J
 
 ---
 
-##🚀 Features
+## 🚀 Features
 
 -Random number generated between 1 and 100
 
