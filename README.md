@@ -1,63 +1,73 @@
-Guess The Number Game
+# Guess The Number Game
 
-A simple, interactive web-based number guessing game built with HTML, CSS, and JavaScript. Test your luck, try to guess the random number, and see if you can beat the game in 10 attempts or less! 
+A simple, interactive web-based number guessing game built with HTML, CSS, and JavaScript. Test your luck, try to guess the random number, and see if you can beat the game in 10 attempts or less!
 
-🚀 Features
+---
 
-•Random number generated between 1 and 100
+##🚀 Features
 
-•Maximum 10 attempts to guess correctly
+-Random number generated between 1 and 100
 
-•Score system: Start with 100 points, lose 10 points for each wrong guess
+-Maximum 10 attempts to guess correctly
+-Score system: Start with 100 points, lose 10 points for each wrong guess
 
-•Display of previous guesses for reference
+-Display of previous guesses for reference
 
-•Win and Lose sounds for an immersive experience 🔊
+-Win and Lose sounds for an immersive experience 🔊
 
-•Reset button appears only after the game ends
+-Reset button appears only after the game ends
 
-🎮 How to Play
+---
 
-•Enter your guess in the input box
+## How to Play
 
-•Click the Submit button
+-Enter your guess in the input box
 
-Correct! 🎉
+-Click the Submit button
 
-Keep guessing until you either win or reach 10 attempts
+-Correct! 🎉
 
-Use the Play Again button to restart the game
+-Keep guessing until you either win or reach 10 attempts
 
-⚡ Technologies Used
+-Use the Play Again button to restart the game
 
-HTML – Game structure
+---
 
-CSS – Styling and layout
+## ⚡ Technologies Used
 
-JavaScript – Game logic, scoring, attempts, previous guesses history and sounds
+`HTML` – Game structure
 
-📚 What I Learned
+`CSS`– Styling and layout
 
-DOM Manipulation: Selecting elements, updating text, showing/hiding buttons
+`JavaScript` – Game logic, scoring, attempts, previous guesses history and sounds
 
-Conditionals & Arithmetic in Conditional Logic: Deciding if guess is wrong or correct
+---
 
-Event Handling: Responding to user input and button clicks
+## 📚 What I Learned
 
-CSS Skills: Learned more about styling buttons, input fields, messages, and layouts
+-DOM Manipulation: Selecting elements, updating text, showing/hiding buttons
 
-📂 How to Run Locally
+-Conditionals & Arithmetic in Conditional Logic: Deciding if guess is wrong or correct
 
-Clone the repository
+-Event Handling: Responding to user input and button clicks
 
-git clone https://github.com/your-username/guess-the-number.git
+-CSS Skills: Learned more about styling buttons, input fields, messages, and layouts
+
+---
+
+## 📂 How to Run Locally
+
+-Clone the repository
+
+-git clone https://github.com/your-username/guess-the-number.git
 
 
-Open index.html in your browser
+-Open index.html in your browser
 
-Start playing! 🎉
+-Start playing! 🎉
 
+---
 
-Author👤
+## Author👤
 
 Mohammad Zaib
