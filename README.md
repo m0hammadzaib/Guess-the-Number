@@ -56,9 +56,9 @@ A simple, interactive web-based number guessing game built with HTML, CSS, and J
 ---
 
 ## 📂 Screenshots
-   `UI` - (screenshots/default-ui.png)
-  `WIN` - (screenshots/You-Win.png)
-   `LOSE` - (screenshots/You-Lose.png)
+   [UI](screenshots/default-ui.png)
+  [WIN](screenshots/You-Win.png)
+   [LOS](screenshots/You-Lose.png)
    
 ---
 ## 📂 How to Run Locally
